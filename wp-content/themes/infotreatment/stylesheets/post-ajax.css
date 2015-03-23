@@ -1,0 +1,4 @@
+/* Styles for ajax post enabled */
+
+#loading-animation{text-indent:-9999px;height:19px;width:19px;display:table;margin-top:-35px;margin-left:auto;margin-right:auto;background:url(../images/loading.gif) no-repeat 46% 0}.post-content-ajax{border-bottom:1px solid #ebebeb;margin-bottom:40px;padding-bottom:40px}.post-content-ajax h2.post-title{color:#6e7070;font-size:22px}a.remove{background:url(../images/exit.gif) no-repeat;text-indent:-9999px;display:inline-blog;width:24px;height:24px;float:right}
+

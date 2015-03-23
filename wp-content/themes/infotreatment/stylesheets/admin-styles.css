@@ -1,0 +1,19 @@
+.awesome_meta_boxes input{
+width:485px;
+border:1px solid #ccc;
+}
+
+.awesome_meta_boxes textarea{
+width:500px;
+}
+
+.awesome_meta_boxes textarea,
+.awesome_meta_boxes input{
+padding: 4px 5px;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+-webkit-box-shadow: 0 1px rgba(0, 0, 0, .05);
+-moz-box-shadow: 0 1px rgba(0,0,0,.05);
+box-shadow: 0 1px rgba(0, 0, 0, .05);
+}

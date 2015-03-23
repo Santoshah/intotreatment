@@ -1,0 +1,218 @@
+Changelog:
+
+June 06, 2014
+-----------------------
+
+Modifications: 
+	- Fix team post-type missing
+	
+
+May 27, 2014
+-----------------------
+
+Modifications:
+	- fix contactform duplicate post submitted
+	- integrating cf7
+	- fix menu order in one page nav menu
+	- fix zillashortcode for wordpress 3.91
+
+
+
+August 01, 2013
+-----------------------
+
+	Modifications:
+	
+		- Fix stripped HTML tag in textarea of custom filed issue
+		
+	File editted:
+
+		- meta-portfolio.php
+
+
+June 26, 2013
+---------------------
+	Modifications:
+
+		 - Fix custom field issues with WordPress 3.5.2 vwrsion
+		 - Minor CSS update
+		 
+		 
+	Files editted:
+
+		- meta-portfolio.php
+		- meta-slider.php
+		- meta-team-member.php
+		- meta-pricetable.php
+		- meta-page.php
+		- style.css		 
+
+
+May 14, 2013
+---------------------
+	Modifications:
+	
+		 - Add multi sliders
+		 - Add custom widgets (tabbed content and latest tweets) 
+		 - Add social share links
+		 - Add AJAX load options for blog posts in portfolio layout
+		 - Add responsive video embed supports
+		 - Fix Google Analyitcs input field bugs
+		 - Update Envato WordPress Toolkit Library		 
+
+		 
+Files editted:
+
+	+ theme_dir/
+	
+	     + envato-wordpress-toolkit-library/ 	=> Latest Envato WordPress library toolkit		 
+		 + functions/
+			 - theme-functions.php
+			 - widget-tabbed-content.php 			=> new file
+			 - widget-twitter.php							=> new file	
+			 - header-functions.php					=> new file	
+			 - home-slider.php
+			 - enqueue.php
+			 - ajax-post.php									=> new file
+			 
+		 + inlcudes/
+		 
+			 + js/
+				 - ajax-post.js									=> new file
+				 - fluidvids.min.js							=> new file
+				
+			 - one-by-one-slider.php					=> new file
+			 - flex-slider.php									=> new file
+			 
+		 + stylesheets/
+			 - responsive.css
+			 - flexslider.css									=> new file
+			 - post-ajax.css									=> new file
+			 
+		 + home-templates/
+			 - blog.php	 
+			 
+		 - options.php	 
+		 
+		 - single.php
+		 
+		 - portfolio-frontpage.php
+		 
+		 - home-blog-loop-ajax.php				=> new file
+			 
+			 
+			 
+Removed files:
+
+	+ theme_dir/
+		 + includes/
+			 - tabbed-content.php		 
+		 
+
+April 03, 2013
+---------------------
+
+	Modifications:
+	
+		 - Improve main navigation by enabling combination anchor link with ID(#) attribute and URL address
+		 - Improve portfolio section. It is now supports multiple images per portfolio item
+		 - Update the content example (dummy.xml)
+		 
+	Files modified: 
+	
+		 + theme_dir/
+			 + includes/
+				 + js/
+					 - jquery.nav.js
+					 
+			 - functions/
+				 - meta-portfolio.php
+				 - theme-functions.php
+				
+			 - style.css
+			 - functions.php
+			 - dummy.xml				 
+			 
+
+March 10, 2013
+---------------------
+
+	Modifications:
+	
+		 - Add the custom Google fonts feature in the Theme Options
+		 - Add the translation / localization ready feature
+		 - Add the built-in SEO feature in the Theme Options
+		 - Add the Google Analytics or other tracking codes feature in the Theme Options
+		 - Add the Teams custom post type
+		 - Remove the Team Members in the Theme Options
+		 - Define target="_blank" attributes for external permalinks
+		 - Change the Theme Options menu location
+		 - Update the theme documentation
+		 - Update the content example (dummy.xml)
+		 
+	Files modified:
+	
+		 + theme_dir/
+			 - dummy.xml
+			 - functions.php		 
+			 - header.php
+			 - options.php
+			 + functions/
+				 - post-types.php		
+				 - theme-functions.php
+				 
+			 + home-templates/
+				 - about.php
+				 
+	Files added:
+	
+		 + theme_dir/
+			 + functions/
+				 - meta-team-member.php
+			 + languages/
+				 - awesome.mo
+				 - awesome.po
+
+	
+March 02, 2013
+---------------------
+	
+	Modification:
+	
+		- Fix minor bugs in Slider, Portfolio, and Price Table custom post types
+
+	Files modified: 
+
+		 + theme_dir/
+			 + functions/
+				 - meta-slider.php
+				 - meta-portfolio.php
+				 - meta-pricetable.php
+
+March 01, 2013
+---------------------
+
+	Modifications:
+	
+		- Improve active price table style. File modified: style.css
+		- Update envelope.png and phone.png icon 
+		- Add new theme options (Predefined colors and unlimited colors). File modified: options.php
+		- Add 5 Color skins: Green, Orange, Red, Blue, and Violet. Files added: skin/ green.css, orange.css, red.css, blue.css, violet.css
+		- Add internal style for unlimited colors support. File modified: header.php
+		
+	Files removed:
+	
+			+ stylesheets/
+				- green.css			
+				- orange.css
+		
+	Files added:		
+	
+			+ stylesheets/skin/
+				+ images/
+					- price-circle.png
+				- blue.css
+				- green.css	
+				- orange.css	
+				- red.css	
+				- violet.css	
